@@ -1,0 +1,44 @@
+// colors
+$primary : #FF6700;
+$secondary: #3A6EA5;
+$third: #004E98;
+$light: #EBEBEB;
+$gray: #C0C0C0;
+$black: #000000;
+
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;600&display=swap');
+$font-primary: 'Catamaran', sans-serif;
+
+//breakpoint screen size
+$breakpoints: (
+  'xs': 1px,
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1200px,
+);
+
+//orientation
+$orientations: (
+    'portrait': portrait,
+    'landscape': landscape
+);
+
+//fonts
+$font-nunito:'Nunito', sans-serif;
+
+//font size
+$titles: (
+  'h1': 4.5rem,
+  'h2': 3.2rem,
+  'h3': 3rem,
+  'h4': 2.8rem,
+  'h5': 2.5rem,
+  'h6': 2rem,
+);
+
+$text: (
+  'p': 1.8rem,
+);

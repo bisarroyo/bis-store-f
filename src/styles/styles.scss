@@ -1,0 +1,18 @@
+// abstracts
+@import './abstracts/variables',
+  './abstracts/functions',
+  'abstracts/mixins';
+
+//base
+@import 'base/base';
+
+// components
+@import
+  './components/carousel',
+  './components/item.scss',
+  './components/navbar',
+  './components/titles';
+
+// pages 
+@import
+  './pages/home'

@@ -1,0 +1,12 @@
+@each $name, $size in $titles {
+  #{$name} {
+    font-size: $size;
+  }
+};
+
+
+@each $name, $size in $text {
+  #{$name} {
+    font-size: $size;
+  }
+};

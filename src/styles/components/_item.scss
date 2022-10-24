@@ -1,0 +1,46 @@
+.item-container {
+  max-width: 300px;
+  width: 100%;
+  border: 1px solid $secondary;
+  box-shadow: 7px 6px 20px 0px rgb($secondary, 0.5);
+  background-color: rgba($light, 0.3);
+  padding: 15px;
+  margin: 20px;
+  
+  h5 {
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .item-img {
+    width: 100%;
+    height: 230px;
+
+    img {
+      object-fit: contain;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .item-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .item-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+
+    .item-cart {
+      font-size: 2rem;
+      padding: 0 15px;
+    }
+  }
+}
