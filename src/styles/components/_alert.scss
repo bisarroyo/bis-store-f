@@ -1,0 +1,30 @@
+.alert-container {
+  text-align: center;
+  &.red {
+    background-color: #f50000;
+    color: white;
+  }
+  &.yellow {
+    background-color: #ffc100;
+    color: white;
+  }
+  &.blue {
+    background-color: #001af5;
+    color: white;
+  }
+  &.green {
+    background-color: #00bc1e;
+    color: white;
+  }
+  &.black {
+    background-color: #000000;
+    color: white;
+  }
+
+
+  p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 5px 0;
+  }
+}

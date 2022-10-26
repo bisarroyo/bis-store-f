@@ -13,11 +13,11 @@ $font-primary: 'Catamaran', sans-serif;
 
 //breakpoint screen size
 $breakpoints: (
-  'xs': 1px,
   'sm': 576px,
   'md': 768px,
   'lg': 992px,
   'xl': 1200px,
+  'xxl': 1400px,
 );
 
 //orientation
@@ -31,14 +31,14 @@ $font-nunito:'Nunito', sans-serif;
 
 //font size
 $titles: (
-  'h1': 4.5rem,
-  'h2': 3.2rem,
-  'h3': 3rem,
-  'h4': 2.8rem,
-  'h5': 2.5rem,
-  'h6': 2rem,
+  'h1': 3.2rem,
+  'h2': 2.9rem,
+  'h3': 2.6rem,
+  'h4': 2.3rem,
+  'h5': 2rem,
+  'h6': 1.7rem,
 );
 
 $text: (
-  'p': 1.8rem,
+  'p': 1.5rem,
 );

@@ -37,22 +37,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .flex-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-.flex-fluid {
-    @extend %flex;
-    @include respond(md){
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    @include respond(lg){
-        justify-content: center;
-    }
 }
