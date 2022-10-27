@@ -1,7 +1,7 @@
-import React from 'react'
 import { BsCartPlusFill } from 'react-icons/bs'
+import Loader from './Loader'
 
-const Item = ({ title, image, description, price }) => {
+const Item = ({ title, image, description, price, onLoading }) => {
   return (
     <div className='item-container'>
       <h5>{title}</h5>
@@ -17,6 +17,7 @@ const Item = ({ title, image, description, price }) => {
           <BsCartPlusFill />
         </div>
       </div>
+      <Loader />
     </div>
   )
 }
